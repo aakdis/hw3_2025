@@ -45,7 +45,7 @@ first div in the grid  and place it in the grid. */
      grid-column: 1/-1;
      background-image: url(../images/header.jpg);
      min-height: 500px;
-     background-size: cover;
+     background: cover;
      background-position: center;
      background-repeat: no-repeat;
      background-attachment: fixed;
@@ -88,7 +88,6 @@ first div in the grid  and place it in the grid. */
  .text-block {
      align-self: center;
      max-height: 250px;
-     overflow: auto;
      display: flex;
      flex-direction: column;
      overflow: auto;
