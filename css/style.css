@@ -88,8 +88,8 @@ first div in the grid  and place it in the grid. */
  .text-block {
      align-self: center;
      max-height: 250px;
-     display: flex;
-     flex-direction: column;
+     display: grid;
+     place-items: center; 
      overflow: auto;
  }
 
